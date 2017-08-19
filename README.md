@@ -10,12 +10,15 @@ Nmap Scan Options Reference: https://nmap.org/book/man-port-scanning-techniques.
 Script Usage Examples:
 
 #Look for top 1000 ports
+
 nm.scan(hosts='', arguments='-Pn -sT -T4 —top-ports 1000 -iL ./alive.txt')
 
 #Look for webservers on common port(s)
+
 nm.scan(hosts='', arguments='-Pn -sT -T4 —p 80,443 -iL ./alive.txt')
 
 #Stealth Syn Scan (Script must be run as root for this to work)
+
 nm.scan(hosts='', arguments='-Pn -sS -T4 —top-ports 1000 -iL ./alive.txt')
 
 Warning: Each scan you run will overwrite the previous CSV file, be sure to copy scan to a safe location if you intend to keep the results before re-running this tool.

@@ -9,6 +9,11 @@ Nmap Scan Options Reference: https://nmap.org/book/man-port-scanning-techniques.
 
 Script Usage Examples:
 
+#Changing IP CIDR range. Grep the first octect of the Target IP Address (IE: 172. 192. etc)
+
+os.system('nmap -sn IPAddressesHere/24 |grep 192.* |cut -d " " -f 5 > alive.txt')
+
+
 #Look for top 1000 ports
 
 nm.scan(hosts='', arguments='-Pn -sT -T4 —top-ports 1000 -iL ./alive.txt')

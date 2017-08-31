@@ -19,8 +19,8 @@ RESET = "\033[0;0m"
 
 
 sys.stdout.write(BLUE)
-SQLi_EasterEgg = "SELECT nmap_defender from tables--"
-print SQLi_EasterEgg
+SQLi_humor = "SELECT nmap_defender from tables--"
+print SQLi_humor
 sys.stdout.write(GREEN)
 print "Running Nmap Defender"
 

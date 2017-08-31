@@ -2,7 +2,7 @@
 Filename: nmap_defender.py
 Description: This script will allow for the automated scanning of network assets and dumping these results to a CSV file.
 This is accomplished by first starting a host discovery scan using the nmap API. This list of targets is then scanned by
-nmap. Once the scan completes a CSV is outputted
+nmap. Once the scan completes a CSV is outputted for review.
 Author: DJ Moder
 """
 import sys

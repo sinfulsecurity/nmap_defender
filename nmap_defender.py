@@ -17,6 +17,24 @@ BLUE  = "\033[1;34m"
 GREEN = "\033[0;32m"
 RESET = "\033[0;0m"
 
+America = """
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  ::::::::::::::::::::;::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+  """
+
+sys.stdout.write(RED)
+print America
 
 sys.stdout.write(BLUE)
 SQLi_humor = "SELECT nmap_defender from tables--"
